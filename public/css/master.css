@@ -1,0 +1,149 @@
+/**
+  * Master css
+  * author: schalappe
+**/
+/****************************/
+/*        Full Page        */
+/***************************/
+/*-------- Page --------*/
+html, body {
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+#mainPage {
+    background-color: #E0E0E0;
+    color: #333333;
+    padding-top: 70px;
+    width: 100%;
+}
+
+.slogan {
+    font-family: 'Satisfy', cursive;
+}
+
+.btn.btn-circle {
+    border-radius: 300px;
+}
+
+.btn.btn-outline {
+    background-color: transparent;
+}
+
+/************************/
+/*        NavBar        */
+/************************/
+/*-------- Navbar --------*/
+.navbar {
+    width: 100%;
+    background: #004940;
+}
+
+/*-------- Nav default --------*/
+
+.navbar-default {
+    z-index: 1;
+}
+
+.navbar-default .nav > li > a {
+    font-family: 'Slabo 27px', sans-serif;
+    color: #FFFFFF;
+    background: #004940;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.navbar-default .nav > li > a:focus,
+.navbar-default .nav > li > a:hover {
+    color: #D3B363;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  font-family: 'Slabo 27px', sans-serif;
+  color: #D3B363;
+  background: #004940;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 2;
+}
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #D3B363;
+    background: #004940;
+}
+/*-------- Navbar-brand --------*/
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  position: relative;
+  z-index: 2;
+}
+
+.navbar-brand .slogan {
+    font-size: 35px;
+    color: #D3B363;
+}
+
+/************************/
+/*        Footer        */
+/************************/
+/*-------- Footer --------*/
+.footer {
+    color: #D3B363;
+    background-color: #004940;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.footer h3 {
+    font-size: 18px;
+}
+
+.footer-top a:focus,
+.footer-top a:hover {
+    opacity: 0.5;
+}
+
+hr.black {
+    border-color: #263238;
+}
+
+.footer-center {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.footer .footer-bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom .social-link a {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #D3B362;
+    opacity: 1;
+}
+
+.footer-bottom .society a {
+    opacity: 0.5;
+    font-size: 12px;
+}
